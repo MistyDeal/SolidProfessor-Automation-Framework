@@ -1,0 +1,6 @@
+{
+	"FilePath": {
+		"Environment": "./src/test/resources/config/Environment.json",
+		"SolidProfessorRepository": "./src/test/resources/properties/SolidProfessorRepository.properties"
+	}
+}
