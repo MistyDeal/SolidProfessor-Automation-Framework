@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 					tags = "@smoke",				 
 					plugin = {
 							"summary", "pretty", 
-							"html:target/cucumber-reports.html",
+							"html:target/cucumber-reports.html",  "json:target/cucumber-reports",
 							"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 public class UIRunner {
 
